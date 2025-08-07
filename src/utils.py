@@ -40,9 +40,10 @@ class Model:
             ]
         )
         file_path = "data/processed/loan_approval_dataset_preprocessed.pkl"
+        X_transformed = preprocessor.fit_transform(X)
         joblib.dump(preprocessor, file_path)
         logging.info(f"Preprocessor saved to {file_path}")
-        X_transformed = preprocessor.fit_transform(X)
+    
         return X_transformed, y
 
     def use_model_logistic_regression(self, x, y):

@@ -9,12 +9,7 @@ venv/
 # Environment files
 .env
 
-# Data
-*.csv
-*.xlsx
-*.pkl
-*.joblib
-data/
+
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/

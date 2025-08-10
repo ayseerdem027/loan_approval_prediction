@@ -9,13 +9,9 @@ venv/
 # Environment files
 .env
 
-
-
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
 # VS Code settings
 .vscode/
 
-# Models
-models/
